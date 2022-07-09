@@ -3,18 +3,18 @@ import './App.css';
 import Header from './Header';
 import DynamicTitle from './DynamicTitle';
 import Footer from './Footer';
+import headshot from '../headshot.jpg';
+
+import Project from './Project';
+import project1image from '../project_1.png';
+import project2image from '../project_2.png';
+import project3image from '../project_3.png';
 
 function App(props) {
-
   const [titleIndex, setTitleIndex] = useState(0);
 
   useEffect(() => {
-    // 👇️ use document.getElementById()
     const cardList = document.getElementsByClassName('card');
-
-    // 👇️ (better) use a ref
-    // const el2 = ref.current;
-    // console.log(el2);
 
     document.addEventListener('scroll', function(e) {
       let closestVal = Math.abs(cardList[0].getBoundingClientRect().top);
@@ -26,7 +26,6 @@ function App(props) {
           closestIndex = i;
         }
       }
-
       console.log(closestIndex);
       setTitleIndex(closestIndex);
     });
@@ -39,6 +38,8 @@ function App(props) {
       <DynamicTitle titleIndex={titleIndex}/>
       <div className="page-stream">
         <div className="card hero-card">
+          <h1>William Gruszka</h1>
+          <h2>Junior Web Developer</h2>
         </div>
         <div className="card who-am-i-card">
           <p>
@@ -46,16 +47,19 @@ function App(props) {
             <br/>
             Looking for opportunities to utilise skills developed from prior experiences and current studies to build well designed and high quality web applications but also to leverage interests in problem solving, collaboration and innovation.
           </p>
+          <img className='shadow' src={headshot}></img>
         </div>
         <div className="card work-card">
-          <p>
-            View some of my works here:
-          </p>
+          <Project image={project1image} title={"Giphy Guessing Game"} tags={['GiphyAPI', 'WordsAPI']}/>
+          <Project image={project2image} title={"Generic Weather App"} tags={['OpenWeatherAPI', 'Bootstrap']}/>
+          <Project image={project3image} title={"ProjectHub"} tags={['Node.js', 'Express.js', 'Sequelize', 'Bootstrap']}/>
         </div>
         <div className="card touch-base-card">
-          <p>
-            Hey how about you contact me huh?
-          </p>
+        <form autocomplete="false">
+          <input type="email" name="name" placeholder='Your email here...'/>
+          <textarea placeholder='Your message here...'></textarea>
+          <input className="plaque plaque-btn" type="submit" value="Submit"/>
+        </form>
         </div>
       </div>
     </div>
