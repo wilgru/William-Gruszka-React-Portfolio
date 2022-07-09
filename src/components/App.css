@@ -1,7 +1,7 @@
 :root {
   /* --dark: rgba(0,0,0, 0.5); */
   --dark: #474747;
-  --light: rgba(0,0,0, 0.05);
+  --light: rgba(225, 225, 225, 0.5);
 }
 
 * {
@@ -24,6 +24,30 @@ p {
   font-size: 24px;
 }
 
+.shadow {
+  box-shadow: lightgray 3px 3px 3px;
+}
+
+.plaque {
+  padding: 4px 8px 0 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  color: var(--dark);
+  background-color: var(--light);
+}
+
+.plaque-btn:hover {
+  color: var(--light);
+  background-color: var(--dark);
+  cursor: pointer;
+}
+
+.plaque-tag {
+  width: fit-content;
+  display: inline;
+}
+
 .App {
   /* text-align: center; */
   display: flex;
@@ -41,18 +65,15 @@ p {
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
-  /* background-color: rgba(201, 255, 218, 0.5); */
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
   justify-content: space-between;
   border-bottom: 2px solid var(--dark);
+  z-index: 1;
 }
 
 .App-header h1 {
+  font-size: 2em;
   font-weight: 500;
-  border: none;
-  border-radius: 2px;
-  background-color: var(--light);
-  padding: 4px 8px 0 8px;
 }
 
 .App-dynamic-title {
@@ -63,14 +84,76 @@ p {
 
 .page-stream {
   margin-left: 20%;
-  margin-top: 100px;
+  margin-right: 20px;
   width: 80%;
 }
 
 .card {
-  /* margin: 100px; */
+  margin-top: 100px;
   min-height: 83vh;
-  /* border-bottom: 2px dotted var(--dark); */
+  /* border: 2px dotted var(--dark); */
+  position: relative;
+}
+
+.who-am-i-card img {
+  width: 30%;
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+}
+
+.work-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-card {
+  height: 230px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card img {
+  width: 330px;
+  height: 160px;
+  object-fit: cover;
+  object-position: 50% 0;
+}
+
+.project-card section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card section p {
+  margin-right: 5px;
+}
+
+.project-card p {
+  margin: 0;
+}
+
+.touch-base-card input[type="email"], textarea {
+  font-size: 24px;
+  border: none;
+  width: 100%;
+}
+
+.touch-base-card input, textarea:focus-visible {
+  outline: none;
+}
+
+.touch-base-card textarea {
+  margin: 20px 0;
+  height: 500px;
+  resize: none;
+}
+
+.touch-base-card input[type="submit"]:hover {
+  cursor: pointer;  
 }
 
 .App-link {
