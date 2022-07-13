@@ -48,12 +48,12 @@ p {
   display: inline;
 }
 
-.App {
-  /* text-align: center; */
+/* .App {
+  text-align: center;
   display: flex;
   width: 95%;
   margin: auto;
-}
+} */
 
 .App-header {
   display: flex;
@@ -76,23 +76,42 @@ p {
   font-weight: 500;
 }
 
-.App-dynamic-title {
+.main-stream {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+
+.header-and-card-stream {
+  display: flex;
+  /* width: 95%; */
+  /* margin: auto; */
+}
+
+.dynamic-title {
   position: fixed;
   margin-top: 100px;
   width: 20%;
 }
 
-.page-stream {
+.card-stream {
   margin-left: 20%;
   margin-right: 20px;
   width: 80%;
 }
 
 .card {
-  margin-top: 100px;
-  min-height: 83vh;
-  /* border: 2px dotted var(--dark); */
   position: relative;
+  margin-top: 100px;
+  min-height: 80vh;
+  padding-bottom: 3vh;
+}
+
+.card:last-child {
+  position: relative;
+  margin-top: 100px;
+  min-height: 76vh;
 }
 
 .card-bottom-buffer {
@@ -143,7 +162,43 @@ p {
   justify-content: space-between;
 }
 
-.project-card img {
+.project-preview {
+  position: relative;
+  /* width: 50%; */
+  /* max-width: 300px; */
+  width: 330px;
+  height: 160px;
+}
+
+.project-overlay {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  backdrop-filter: blur(6px);
+  width: 100%;
+  height: 100%;
+  transition: 400ms ease;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-btns-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay-btns-container a {
+  margin: 12px;
+  width: fit-content;
+}
+
+.project-overlay:hover {
+  opacity: 1;
+}
+
+.project-preview img {
   width: 330px;
   height: 160px;
   object-fit: cover;
@@ -175,7 +230,7 @@ p {
 
 .touch-base-card textarea {
   margin: 20px 0;
-  height: 500px;
+  height: 450px;
   resize: none;
 }
 
@@ -183,6 +238,26 @@ p {
   cursor: pointer;  
 }
 
-.App-link {
-  color: #61dafb;
+.App-footer {
+  display: flex;
+  align-items: flex-end;
+  font-family: "League Spartan";
+  color: var(--light);
+  background-color: var(--light);
+  border-radius: 5px 5px 0 0;
+  padding: 0 4px;
+  height: 4vh;
+  z-index: 1;
+}
+
+.App-footer p{
+  margin: 4px 0 6px 0;
+  font-size: 12px;
+  color: var(--dark);
+}
+
+.App-footer a {
+  margin: 4px 6px 4px 0;
+  font-size: 20px;
+  color: #3f8da2;
 }
