@@ -66,24 +66,24 @@ p {
   font-weight: 500;
 }
 
-.main-stream {
+#main-stream {
   display: flex;
   flex-direction: column;
   width: 95%;
   margin: auto;
 }
 
-.header-and-card-stream {
+#title-and-card-stream {
   display: flex;
 }
 
-.dynamic-title {
+#dynamic-title {
   position: fixed;
   margin-top: 100px;
   width: 20%;
 }
 
-.card-stream {
+#card-stream {
   margin-left: 20%;
   margin-right: 20px;
   width: 80%;
@@ -106,37 +106,37 @@ p {
   margin-bottom: 500px;
 }
 
-.hero-card {
+#hero-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.hero-card section {
+#hero-card section {
   position: absolute;
   width: fit-content;
   right: 0;
   text-align: right;
 }
 
-.hero-card section h1 {
+#hero-card section h1 {
   font-size: 100px;
   margin: 20px 0;
 }
 
-.hero-card section h2 {
+#hero-card section h2 {
   font-size: 40px;
   margin: 20px 0;
 }
 
-.who-am-i-card img {
+#who-am-i-card img {
   width: 30%;
   position: absolute;
   right: 2px;
   bottom: 2px;
 }
 
-.work-card {
+#work-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -151,10 +151,33 @@ p {
   justify-content: flex-start;
 }
 
+.project-card section {
+  padding: 6px 0;
+  width: 330px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card section p {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.project-card p {
+  margin: 0;
+}
+
 .project-preview {
   position: relative;
   width: 330px;
   height: 160px;
+}
+
+.project-preview img {
+  width: 330px;
+  height: 160px;
+  object-fit: cover;
+  object-position: 50% 0;
 }
 
 .project-overlay {
@@ -185,50 +208,27 @@ p {
   opacity: 1;
 }
 
-.project-preview img {
-  width: 330px;
-  height: 160px;
-  object-fit: cover;
-  object-position: 50% 0;
-}
-
-.project-card section {
-  padding: 6px 0;
-  width: 330px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-card section p {
-  margin-top: 5px;
-  margin-right: 5px;
-}
-
-.project-card p {
-  margin: 0;
-}
-
-.touch-base-card input[type="email"], textarea {
+#touch-base-card input[type="email"], textarea {
   font-size: 24px;
   border: none;
   width: 100%;
 }
 
-.touch-base-card input, textarea:focus-visible {
+#touch-base-card input, textarea:focus-visible {
   outline: none;
 }
 
-.touch-base-card textarea {
+#touch-base-card textarea {
   margin: 20px 0;
   height: 450px;
   resize: none;
 }
 
-.touch-base-card input[type="submit"]:hover {
+#touch-base-card input[type="submit"]:hover {
   cursor: pointer;  
 }
 
-.App-footer {
+#App-footer {
   display: flex;
   align-items: flex-end;
   font-family: "League Spartan";
@@ -240,13 +240,13 @@ p {
   z-index: 1;
 }
 
-.App-footer p{
+#App-footer p{
   margin: 4px 6px 6px auto;
   font-size: 12px;
   color: var(--dark);
 }
 
-.App-footer a {
+#App-footer a {
   margin: 4px 6px 4px 0;
   font-size: 20px;
 }
