@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+CRITERIA-Assets
+CRITERIA-README.md
+REACT-README.md
