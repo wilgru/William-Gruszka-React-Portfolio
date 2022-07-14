@@ -16,8 +16,8 @@ const Project = (props) => {
         <img className="shadow" src={props.image}></img>
         <div className="project-overlay shadow">
             <div className="overlay-btns-container">
-            <a className="plaque" href={props.githubLink}>GitHub</a>
-            <a className="plaque" href={props.deployedLink}>Link</a>
+            <a className="plaque" href={props.githubLink} target="_blank">GitHub</a>
+            <a className="plaque" href={props.deployedLink} target="_blank">Link</a>
           </div>
         </div>
       </div>
