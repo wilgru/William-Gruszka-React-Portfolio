@@ -14,6 +14,9 @@ Portfolio by William Gruszka, build using React. Deployed with links to GitHub, 
 ## Preview
 <a name="Preview"></a>
 
+![Portfolio demo image](https://github.com/wilgru/william-gruszka-react-portfolio/blob/main/portfolio_demo.png)
+<br>
+
 <a name="Link"></a>
 ## Link 
 
