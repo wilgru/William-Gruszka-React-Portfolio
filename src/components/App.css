@@ -1,23 +1,20 @@
 :root {
-  /* --dark: rgba(0,0,0, 0.5); */
   --dark: #474747;
   --light: rgba(225, 225, 225, 0.5);
 }
 
 * {
-  /* background-color: ghostwhite; */
   font-family: "League Spartan";
   font-weight: 100;
 }
 
-button {
-  margin: 0 4px;
+a {
   padding: 4px 8px 0 8px;
+  text-decoration: none;
   font-size: 16px;
   border: none;
+  margin: 0 4px;
   border-radius: 2px;
-  color: var(--dark);
-  background-color: var(--light);
 }
 
 p {
@@ -47,13 +44,6 @@ p {
   width: fit-content;
   display: inline;
 }
-
-/* .App {
-  text-align: center;
-  display: flex;
-  width: 95%;
-  margin: auto;
-} */
 
 .App-header {
   display: flex;
@@ -85,8 +75,6 @@ p {
 
 .header-and-card-stream {
   display: flex;
-  /* width: 95%; */
-  /* margin: auto; */
 }
 
 .dynamic-title {
@@ -151,21 +139,20 @@ p {
 .work-card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .project-card {
   height: 230px;
   margin-bottom: 20px;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .project-preview {
   position: relative;
-  /* width: 50%; */
-  /* max-width: 300px; */
   width: 330px;
   height: 160px;
 }
@@ -206,11 +193,14 @@ p {
 }
 
 .project-card section {
+  padding: 6px 0;
+  width: 330px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .project-card section p {
+  margin-top: 5px;
   margin-right: 5px;
 }
 
@@ -251,7 +241,7 @@ p {
 }
 
 .App-footer p{
-  margin: 4px 0 6px 0;
+  margin: 4px 6px 6px auto;
   font-size: 12px;
   color: var(--dark);
 }
@@ -259,5 +249,4 @@ p {
 .App-footer a {
   margin: 4px 6px 4px 0;
   font-size: 20px;
-  color: #3f8da2;
 }
