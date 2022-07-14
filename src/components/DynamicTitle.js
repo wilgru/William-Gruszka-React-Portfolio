@@ -7,7 +7,7 @@ const dynamicTitle = (props) => {
     ];
 
     return (
-        <div className="dynamic-title">
+        <div id="dynamic-title">
             <h1>{titles[props.titleIndex]}</h1>
         </div>
     )
