@@ -3,6 +3,7 @@ import project2image from './project_2.png';
 import project3image from './project_3.png';
 import project4image from './project_4.png';
 import project5image from './project_5.png';
+import project6image from './project_6.png';
 
 const projectData = [
     {
@@ -13,13 +14,6 @@ const projectData = [
         deployedLink: "wilgru.github.io/group-f-project-1-giphy-guessing-game/"
     },
     {
-        title: "Generic Weather App",
-        image: project2image,
-        tags: ['OpenWeatherAPI', 'Bootstrap'],
-        githubLink: "https://github.com/wilgru/USYDBC-WG-06-Weather-Dashboard-WG",
-        deployedLink: "https://wilgru.github.io/Weather-Dashboard-WG/"
-    },
-    {
         title: "ProjectHub",
         image: project3image,
         tags: ['Node.js', 'Express.js', 'Sequelize', 'Bootstrap', 'heroku'],
@@ -27,7 +21,7 @@ const projectData = [
         deployedLink: "https://projecthub-crm.herokuapp.com/"
     },
     {
-        title: "Generic Tech Blog",
+        title: "Full Stack Tech Blog",
         image: project4image,
         tags: ['Node.js', 'Express.js', 'Sequelize', 'heroku'],
         githubLink: "https://github.com/wilgru/USYDBC-WG-14-Tech-Blog",
@@ -39,6 +33,13 @@ const projectData = [
         tags: ['Node.js', 'Express.js', 'Webpack', 'WorkBox'],
         githubLink: "https://github.com/wilgru/USYDBC-WG-19-Text-Editor",
         deployedLink: "https://usydbc-19-text-editor.herokuapp.com/"
+    },
+    {
+        title: "Optomify",
+        image: project6image,
+        tags: ['MERN', 'GraphQL', 'Ant Design', 'Less'],
+        githubLink: "https://github.com/wilgru/Optomify",
+        deployedLink: "optomify.herokuapp.com/"
     },
 ]
 
