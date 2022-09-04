@@ -21,6 +21,13 @@ const projectData = [
         deployedLink: "https://projecthub-crm.herokuapp.com/"
     },
     {
+        title: "Optomify",
+        image: project6image,
+        tags: ['MERN', 'GraphQL', 'Ant Design', 'Less'],
+        githubLink: "https://github.com/wilgru/Optomify",
+        deployedLink: "optomify.herokuapp.com/"
+    },
+    {
         title: "Full Stack Tech Blog",
         image: project4image,
         tags: ['Node.js', 'Express.js', 'Sequelize', 'heroku'],
@@ -33,13 +40,6 @@ const projectData = [
         tags: ['Node.js', 'Express.js', 'Webpack', 'WorkBox'],
         githubLink: "https://github.com/wilgru/USYDBC-WG-19-Text-Editor",
         deployedLink: "https://usydbc-19-text-editor.herokuapp.com/"
-    },
-    {
-        title: "Optomify",
-        image: project6image,
-        tags: ['MERN', 'GraphQL', 'Ant Design', 'Less'],
-        githubLink: "https://github.com/wilgru/Optomify",
-        deployedLink: "optomify.herokuapp.com/"
     },
 ]
 
