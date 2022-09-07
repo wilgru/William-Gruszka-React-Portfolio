@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/william-gruszka-react-portfolio/static/css/main.56d1a57b.css",
-    "main.js": "/william-gruszka-react-portfolio/static/js/main.814aaec8.js",
+    "main.js": "/william-gruszka-react-portfolio/static/js/main.a722c0f6.js",
     "static/media/project_1.png": "/william-gruszka-react-portfolio/static/media/project_1.8cf7cf33ffc5262c5a70.png",
+    "static/media/project_6.png": "/william-gruszka-react-portfolio/static/media/project_6.a8a0b3a630847c15c94d.png",
     "static/media/project_3.png": "/william-gruszka-react-portfolio/static/media/project_3.a82b966fa0feca4f9f3f.png",
     "static/media/project_2.png": "/william-gruszka-react-portfolio/static/media/project_2.f64204979267f2ab395d.png",
     "static/media/headshot.jpg": "/william-gruszka-react-portfolio/static/media/headshot.477bb9c1e3839a0c4d08.jpg",
@@ -10,10 +11,10 @@
     "static/media/project_5.png": "/william-gruszka-react-portfolio/static/media/project_5.d00681161416770ac65f.png",
     "index.html": "/william-gruszka-react-portfolio/index.html",
     "main.56d1a57b.css.map": "/william-gruszka-react-portfolio/static/css/main.56d1a57b.css.map",
-    "main.814aaec8.js.map": "/william-gruszka-react-portfolio/static/js/main.814aaec8.js.map"
+    "main.a722c0f6.js.map": "/william-gruszka-react-portfolio/static/js/main.a722c0f6.js.map"
   },
   "entrypoints": [
     "static/css/main.56d1a57b.css",
-    "static/js/main.814aaec8.js"
+    "static/js/main.a722c0f6.js"
   ]
 }
