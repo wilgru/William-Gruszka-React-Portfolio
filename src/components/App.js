@@ -75,11 +75,17 @@ function App() {
               {projectLoop(projectData)}
             </div>
             <div id='touch-base-card' className="card">
-              <form autoComplete="false">
+              <h1>Email me at:</h1>
+              <a style={{padding: 0, margin: 0, fontSize: "24px"}} href='mailto: william.gruszka@gmail.com'>william.gruszka@gmail.com</a>
+              <h1>GitHub:</h1>
+              <a style={{padding: 0, margin: 0, fontSize: "24px"}} href='https://github.com/wilgru/william-gruszka-react-portfolio'>https://github.com/wilgru/william-gruszka-react-portfolio</a>
+              <h1>LinkedIn:</h1>
+              <a style={{padding: 0, margin: 0, fontSize: "24px"}} href='https://www.linkedin.com/in/william-gruszka-a03373227/'>https://www.linkedin.com/in/william-gruszka-a03373227/</a>
+              {/* <form autoComplete="false">
                 <input type="email" name="name" placeholder='Your email here...'/>
                 <textarea placeholder='Your message here...'></textarea>
                 <input className="plaque plaque-btn" type="submit" value="Submit"/>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
