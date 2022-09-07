@@ -78,7 +78,7 @@ function App() {
               <h1>Email me at:</h1>
               <a style={{padding: 0, margin: 0, fontSize: "24px"}} href='mailto: william.gruszka@gmail.com'>william.gruszka@gmail.com</a>
               <h1>GitHub:</h1>
-              <a style={{padding: 0, margin: 0, fontSize: "24px"}} href='https://github.com/wilgru/william-gruszka-react-portfolio'>https://github.com/wilgru/william-gruszka-react-portfolio</a>
+              <a style={{padding: 0, margin: 0, fontSize: "24px"}} href='https://github.com/wilgru/'>https://github.com/wilgru/</a>
               <h1>LinkedIn:</h1>
               <a style={{padding: 0, margin: 0, fontSize: "24px"}} href='https://www.linkedin.com/in/william-gruszka-a03373227/'>https://www.linkedin.com/in/william-gruszka-a03373227/</a>
               {/* <form autoComplete="false">
