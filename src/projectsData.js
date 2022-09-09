@@ -10,7 +10,7 @@ const projectData = [
         title: "Giphy Guessing Game",
         image: project1image,
         tags: ['GiphyAPI', 'WordsAPI'],
-        githubLink: "https://github.com/wilgru/Giphy-Guessing-Game",
+        githubLink: "https://wilgru.github.io/Giphy-Guessing-Game/",
         deployedLink: "wilgru.github.io/group-f-project-1-giphy-guessing-game/"
     },
     {
