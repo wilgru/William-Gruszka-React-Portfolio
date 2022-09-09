@@ -65,9 +65,9 @@ function App() {
             </div>
             <div id='who-am-i-card' className="card card-bottom-buffer">
               <p>
-              Aspiring full-stack web developer motivated by a semantic and UX-conscious approach to web development and responsive web design, with an interest in Progressive Web Apps and learning emerging technologies. Comes from a background in fast-paced optical retail, developing skills in communication, teamwork and attention to detail. Completed a certificate in web development through USYD’s Coding Bootcamp, developing skills with industry leading technologies including MERN Stack, PWA tools like Webpack and Workbox, CSS libraries including Bootstrap and Ant Design, and paradigms like MVC and ORM/ODM.<br/>
+                Aspiring full-stack web developer motivated by a semantic and agile approach to web development with interests in React development as well as learning new and emerging technologies. Comes from a background in fast-paced optical retail, developing skills in communication, teamwork and attention to detail. Completed a certificate in web development through USYD’s Coding Bootcamp, developing skills with industry leading technologies such as MERN, Webpack, ORMs and ODMs, and has gained valuable experience in agile development and project management too.<br/>
                 <br/>
-                Looking for opportunities to utilise skills developed from prior experiences and current studies to build well designed and high quality web applications but also to leverage interests in problem solving, collaboration and innovation.
+                Looking for opportunities to utilise and expand upon the skill set developed from current studies and from personal projects to build well designed and high quality web applications, but also to leverage interests in problem solving, collaboration and innovation.
               </p>
               <img className='shadow' src={headshot}></img>
             </div>
